@@ -18,3 +18,4 @@ https://stackoverflow.com/questions/38415680/how-to-parse-csv-file-into-an-array
 + CSVFile.java # classe utilitaire permettant de lire notre fichier CSV
 + ItemArrayAdapter.java # classe permettant de préparer la vue qui va accueillir les données du CSV
 + item_layout.xml # XML de mise en page de l'application 'Vue des données du CSV'
++ etat_avancement.JPG # capture d'écran de la situation actuelle

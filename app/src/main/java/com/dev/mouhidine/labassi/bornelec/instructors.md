@@ -11,11 +11,11 @@ https://stackoverflow.com/questions/38415680/how-to-parse-csv-file-into-an-array
  * 29-07-2017 N.MOUHIDINE
  */
 
-#Test lecturefichier csv
-#affichage trop long pour la taille de l'écran
-#mode landscape possibilité d'afficher id_station et nom_station
+# Test lecturefichier csv
+# Affichage trop long pour la taille de l'écran
+# Mode landscape possibilité d'afficher id_station et nom_station
 
 + CSVFile.java # classe utilitaire permettant de lire notre fichier CSV
-+ ItemArrayAdapter.java # classe permettant de préparer la vue qui va accueillir les données du CSV
++ ItemArrayAdapter.java # classe permettant de contenir l'ensemble des données CSV à afficher dans la ListView
 + item_layout.xml # XML de mise en page de l'application 'Vue des données du CSV'
 + etat_avancement.JPG # capture d'écran de la situation actuelle

@@ -18,7 +18,6 @@ public class ItemArrayAdapter extends ArrayAdapter {
     private List<String[]> scoreList = new ArrayList<String[]>();
 
     static class ItemViewHolder {
-        TextView id_station;
         TextView nom_station;
     }
 
@@ -50,14 +49,12 @@ public class ItemArrayAdapter extends ArrayAdapter {
             LayoutInflater inflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = inflater.inflate(R.layout.item_layout, parent, false);
             viewHolder = new ItemViewHolder();
-            viewHolder.id_station = (TextView) row.findViewById(R.id.id_station);
             viewHolder.nom_station = (TextView) row.findViewById(R.id.nom_station);
             row.setTag(viewHolder);
         } else {
             viewHolder = (ItemViewHolder)row.getTag();
         }
         String[] stat = getItem(position);
-        viewHolder.id_station.setText(stat[0]);
         viewHolder.nom_station.setText(stat[1]);
         return row;
     }

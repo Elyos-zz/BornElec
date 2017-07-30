@@ -3,6 +3,7 @@ package com.dev.mouhidine.labassi.bornelec;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.widget.ListView;
 
 import java.io.InputStream;

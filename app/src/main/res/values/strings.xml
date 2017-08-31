@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BornElec</string>
+    <string name="bt_lancer">Afficher les stations</string>
+    <string name="welcome">Bienvenue sur BornElec</string>
+    <string name="welcome_title">L\'application au service de votre Autolib</string>
 </resources>

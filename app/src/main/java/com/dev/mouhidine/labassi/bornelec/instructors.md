@@ -20,7 +20,3 @@ https://stackoverflow.com/questions/38415680/how-to-parse-csv-file-into-an-array
 + item_layout.xml # XML de mise en page de l'application 'Vue des données du CSV'
 + etat_avancement.JPG # capture d'écran de la situation actuelle
 + Push version pseudo finale
-
-
-
-+x

@@ -1,5 +1,6 @@
 package com.dev.mouhidine.labassi.bornelec;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -35,11 +36,32 @@ public class MainActivity extends AppCompatActivity {
         lancer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, AfficheBorne.class);
-                startActivity(i);
+               // Intent i = new Intent(MainActivity.this, AfficheBorne.class);
+               // startActivity(i);
+                ChargementBornes autoloib = new ChargementBornes();
+                autoloib.execute();
             }
 
         });
     }
 
+
+    class ChargementBornes extends AsyncTask<Void, Integer, Void>{
+
+        protected void onPreExecute() {
+            progressBar.setVisibility(View.VISIBLE);
+
+        }
+        @Override
+        protected Void doInBackground(Void... voids) {
+            return null;
+        }
+
+        protected void onPostExecute(Void aVoid) {
+            progressBar.setVisibility(View.INVISIBLE);
+            super.onPostExecute(aVoid);
+            Intent intent = new Intent(MainActivity.this, AfficheBorne.class);
+            startActivity(intent);
+        }
+    }
 }

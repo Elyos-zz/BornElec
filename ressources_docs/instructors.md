@@ -21,3 +21,4 @@ https://stackoverflow.com/questions/38415680/how-to-parse-csv-file-into-an-array
 + etat_avancement.JPG # capture d'écran de la situation actuelle
 + Push version pseudo finale
 + Développement AsyncTask
++

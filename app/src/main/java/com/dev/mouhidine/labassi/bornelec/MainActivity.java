@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
             progressBar.setVisibility(View.INVISIBLE);
             super.onPostExecute(aVoid);
-            Intent intent = new Intent(MainActivity.this, AfficheBorne.class);
+            Intent intent = new Intent(MainActivity.this, BornesAffiche.class);
             startActivity(intent);
         }
     }
